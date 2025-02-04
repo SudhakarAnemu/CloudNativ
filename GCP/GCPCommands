@@ -1,5 +1,11 @@
 js
 
+gcloud auth login
+gcloud auth application-default login
+gcloud auth list
+
+
+
 sudo apt update && sudo apt install git -y
 sudo apt-get install -y maven openjdk-11-jdk
 git clone https://github.com/googlecodelabs/speaking-with-a-webpage.git
